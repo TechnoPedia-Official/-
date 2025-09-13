@@ -1,0 +1,13 @@
+# robots.txt for TechnoPedia
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive paths (adjust if not used)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml

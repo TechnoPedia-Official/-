@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Home -->
+    <url>
+    <loc>https://yourdomain.com/</loc>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+    </url>
+
+    <!-- Japan Pages -->
+    <url><loc>https://yourdomain.com/japan/ai-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/japan/cyber-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/japan/software-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/japan/communication-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/japan/machinery-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+
+    <!-- America Pages -->
+    <url><loc>https://yourdomain.com/america/ai-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/america/cyber-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/america/software-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/america/communication-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/america/machinery-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+
+    <!-- China Pages -->
+    <url><loc>https://yourdomain.com/china/ai-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/china/cyber-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/china/software-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/china/communication-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/china/machinery-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+
+    <!-- Pakistan Pages -->
+    <url><loc>https://yourdomain.com/pakistan/ai-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/pakistan/cyber-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/pakistan/software-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/pakistan/communication-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/pakistan/machinery-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+
+    <!-- India Pages -->
+    <url><loc>https://yourdomain.com/india/ai-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/india/cyber-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/india/software-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/india/communication-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://yourdomain.com/india/machinery-technology</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+
+</urlset>
