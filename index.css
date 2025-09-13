@@ -1,0 +1,259 @@
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+:root {
+    --royal-font-family-: Palatino Linotype;
+    --sigma-font-family-: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --normal-font-family-: Lato, 'Franklin Gothic Medium';
+    --small-txt-size-: 1.4vw;
+    --normal-font-size-: 2vw;
+    --large-font-size-: 4vw;
+    --logo-font-color-: rgb(0, 110, 255);
+    --normal-txt-color-: rgb(5, 13, 20);
+    --highlighted-txt-color-: rgb(17, 17, 122);
+    --heading-font-color-: rgb(39, 67, 194);
+    --bg-color-: rgb(250, 252, 255);
+    --sub-head-color-: rgb(99, 99, 99);
+}
+
+body {
+    background: var(--bg-color-);
+}
+
+nav {
+    position: fixed;
+    color: grey;
+    background-color: var(--bg-color-);
+    width: 100vw;
+    cursor: pointer;
+    user-select: none;
+    border: 2px, solid, var(--bg-color-);
+    box-shadow: 2px 4px 6px rgb(238, 238, 238);
+}
+
+.nav-cont {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    width: 100vw;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/*  .logo {
+    font-family: var(--sigma-font-family-);
+    user-select: none;
+    font-size: var(--large-font-size-);
+    cursor: pointer;
+    color: var(--logo-font-color-);
+
+    3D shadow effect
+    text-shadow:
+        2px 2px 0px rgba(0, 110, 255, 0.8),
+        4px 4px 0px rgba(0, 80, 200, 0.7),
+        6px 6px 8px rgba(0, 50, 150, 0.6);
+
+        4D tilt perspective 
+    transform: perspective(600px) rotateX(10deg) rotateY(-5deg);
+
+        Subtle glowing animation
+    animation: logo-glow 3s infinite alternate;
+}
+
+ Glow animation using your brand colors 
+@keyframes logo-glow {
+    from {
+        text-shadow:
+            2px 2px 0px rgba(0, 110, 255, 0.9),
+            4px 4px 6px rgba(17, 17, 122, 0.8),
+            6px 6px 12px rgba(39, 67, 194, 0.7),
+            0 0 15px rgba(0, 110, 255, 0.9);
+        color: var(--logo-font-color-);
+    }
+
+    to {
+        text-shadow:
+            2px 2px 0px rgba(39, 67, 194, 1),
+            4px 4px 8px rgba(17, 17, 122, 0.9),
+            6px 6px 15px rgba(0, 110, 255, 0.8),
+            0 0 25px rgba(0, 110, 255, 1);
+        color: var(--highlighted-txt-color-);
+    }
+} */
+.logo {
+    font-family: var(--sigma-font-family-);
+    user-select: none;
+    font-size: var(--large-font-size-);
+    cursor: pointer;
+    color: var(--logo-font-color-);
+
+    /* Strong 3D extrusion using multiple layered shadows */
+    text-shadow:
+    1px 1px 0px rgba(0, 80, 200, 0.9),
+        2px 2px 0px rgba(0, 70, 180, 0.9),
+        3px 3px 0px rgba(0, 60, 160, 0.9),
+        4px 4px 0px rgba(0, 50, 140, 0.9),
+        5px 5px 8px rgba(0, 40, 120, 0.8);
+
+    /* Slight perspective tilt for depth */
+    transform: perspective(500px) rotateX(8deg) rotateY(-4deg);
+}
+
+.mini-nav-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    letter-spacing: 1.2px;
+    color: grey;
+    word-spacing: 3px;
+    padding: 20px;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.mini-nav-cont li {
+    font-family: var(--normal-font-family-);
+    font-size: calc(var(--normal-font-size-) - 5px);
+}
+
+select {
+    background-color: var(--bg-color-);
+    border: none;
+    font-family: var(--normal-font-family-);
+    font-size: calc(var(--normal-font-size-) - 5px);
+    color: grey;
+    outline: none;
+}
+
+main {
+    padding-top: 150px;
+}
+
+article img {
+    user-select: none;
+}
+
+article {
+    margin-bottom: 100px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px, solid, var(--bg-color-);
+    align-self: center;
+    justify-self: center;
+    width: 90vw;
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--bg-color-);
+    box-shadow: 2px 2px 2px rgb(189, 189, 189);
+}
+
+.ar-head {
+    font-family: var(--royal-font-family-);
+    color: var(--highlighted-txt-color-);
+    font-size: 3.3vw;
+    font-style: italic;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.ar-sub-head {
+    font-family: var(--royal-font-family-);
+    color: var(--sub-head-color-);
+    font-size: var(--normal-font-size-);
+    font-style: italic;
+    font-weight: 200;
+    text-indent: 30px;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+
+.description {
+    display: flex;
+    gap: 1vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt {
+    font-family: sans-serif;
+    line-height: 30px;
+    color: var(--normal-txt-color-);
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    word-spacing: 3px;
+    font-family: var(--normal-font-family-);
+    font-size: calc(var(--small-txt-size-) + 2px);
+    width: 50vw;
+}
+
+.img {
+    width: 45vw;
+    border-radius: 8px;
+}
+
+hr {
+    --hr-color-: rgb(7, 20, 49);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: var(--hr-color-);
+    border: 0.01px, solid, var(--hr-color-);
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.Selected {
+    backface-visibility: none;
+}
+
+.Not-Selected {
+    display: none;
+}
+
+.country {
+    color: rgb(153, 153, 153);
+    font-size: var(--normal-font-size-);
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: var(--sigma-font-family-);
+    font-weight: 600;
+}
+
+.country::before {
+    content: '(';
+}
+
+.country::after {
+    content: ")";
+}
