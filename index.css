@@ -44,6 +44,7 @@ nav {
     color: grey;
     background-color: var(--bg-color-);
     width: 100vw;
+    margin-bottom:50px;
     cursor: pointer;
     user-select: none;
     border: 2px, solid, var(--bg-color-);
@@ -1207,3 +1208,4 @@ a {
         width: 100%;
     }
 }
+
