@@ -716,7 +716,7 @@ try {
         'https://tse2.mm.bing.net/th/id/OIP.8Z2vvtcPEBNx4R9DE59BwgHaEO?pid=Api&P=0&h=220',
         'https://tse4.mm.bing.net/th/id/OIP.xgS7bW7w4u2HDm6sey5XnAHaE8?pid=Api&P=0&h=220',
         'https://up.yimg.com/ib/th/id/OIP.6SwpmKVIskWGeKB_FKDclAHaEF?pid=Api&rs=1&c=1&qlt=95&w=206&h=113',
-        'Public/Cyber-Secuurity-Of-Pakistan.HPQGexhNv5XcFNf3O_xvygHaEo',
+        'Cyber-Secuurity-Of-Pakistan.HPQGexhNv5XcFNf3O_xvygHaEo',
         'https://tse3.mm.bing.net/th/id/OIP.8Sm5En8x6p9eAc271fI7tQHaDJ?pid=Api&P=0&h=220',
         // Machinery Technology
         'https://tse2.mm.bing.net/th/id/OIP.5OfOYj9G7nL0Qh322DpEUQHaE7?pid=Api&P=0&h=220',
@@ -1168,4 +1168,5 @@ try {
 } catch (error) {
     print('Error Type:-', error.type)
     print('Error Message:-', error.message)
+
 }
