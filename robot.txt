@@ -10,4 +10,5 @@ Disallow: /private/
 Disallow: /tmp/
 
 # Sitemap location
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https:// technopedia-official.github.io.com/sitemap.xml
+
